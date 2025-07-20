@@ -1,6 +1,6 @@
 public class FamilyTicket extends Ticket{
 
-    private int numberOfPeople;
+    private final int numberOfPeople;
 
     public FamilyTicket(double price,
                         String filmName,
